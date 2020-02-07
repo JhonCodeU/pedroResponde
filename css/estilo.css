@@ -1,0 +1,146 @@
+body {
+    background-color: #07BEB8;
+}
+
+#peticion > input {
+    height: 50px;
+    width: 605px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #CAEBF2;
+    margin-top: 10px;
+    padding: 16px;
+    font-size: 20px;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+.btn {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #E82041;
+    margin: 0px auto;
+    font-size: 20px;
+    background-color: #E82041;
+    color: #fff;
+}
+
+.btn:hover{
+    background: #f9d366;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #C0B283;
+}
+
+#pregunta > input {
+    height: 50px;
+    width: 605px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #DCD0C0;
+    margin-top: 10px;
+    padding: 16px;
+    font-size: 20px;
+    text-align: center;
+    background-color: bisque;
+}
+
+#respuesta {
+    position: relative;
+    margin: 10px auto;
+    width: 45%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #C0B283;
+    padding: 3%;
+    text-align: center;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+#explicacion {
+    height: 200px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #C0B283;
+    margin: 0px auto;
+    padding: 16px;
+    font-size: 20px;
+    background-color: #F4DECB;
+}
+
+.h1{
+    color: #fff;
+    font-weight: 400;
+}
+h3{
+    color: #E82041;
+    margin: 0;
+}
+div .imagen img{
+    width: 180px;
+    float: left;
+}
+
+.instrucciones a{
+    margin-top: 30px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.instrucciones a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+/* hoja de instrucciones*/
+.contenedor{
+    background: #F4DECB;
+    width: 500px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #C0B283;
+}
+.contenedor div img{
+    width: 250px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulo{
+    text-align: center;
+    color: #E82041;
+}
+.comoJugar, .magia{text-align: center;}
+
+.volver{
+    background-color: #E82041; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.volver a{
+    color: #fff;
+    text-decoration: none;
+}
+.volver:hover{background: #f9d366; border: solid 2px;}
+.volver a:hover{color: #000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;}

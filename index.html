@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pedro Responde</title>
+    <link rel="stylesheet" href="librery/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <center>
+        <p class="h1">Pedro Responde</p>
+
+        <div id="explicacion">
+            <div class="imagen">
+                    <img src="img/tarot.png" alt="imagen">
+            </div>
+            <div class="descripcion">
+                <h3>Bienvenido a Pedro Responde...</h3>
+                <p>Sorprende a quienes conozcas, realiza una pregunta en donde la cual podras darle respuesta con una simple peticion.</p>
+            </div>
+        </div>
+        <div id="peticion">
+
+            <input type="text" class="control-label" id="pet" name="pet" placeholder="Ingrese la peticion" onkeydown="initLogic(event)">
+        </div>
+
+
+        <div id="pregunta">
+            <input type="text" id="pre" name="pre" placeholder="Ingrese la pregunta">
+        </div>
+
+        <div id="respuesta"></div>
+
+        <button class="btn" type="button" value="preguntar" onclick="preguntar()">Preguntame</button>
+
+        <div class="instrucciones">
+                <a href="instrucciones.html">Aqui puedes aprender a jugar</a>
+        </div>
+
+    </center>
+
+</body>
+<script src="librery/jquery-3.2.1.min.js"></script>
+<script src="librery/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
